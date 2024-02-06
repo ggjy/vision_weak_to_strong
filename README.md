@@ -91,6 +91,11 @@ python -m torch.distributed.launch --nproc_per_node=8 train.py /cache/data/image
 
 Our CIFAR training is conducted using 8 GPUs, in contrast to the previous codebase that utilized only 1 GPU. In order to achieve a comparable baseline accuracy between the student and teacher models, we experimented with both the ```configs/cifar_v0.yaml``` and ```configs/cifar_v1.yaml``` configurations.
 
+#### Few shot learning on miniImageNet
+You can find the detailed from `few_shot_leaerning/README.md`
+
+#### Noisy labels learning on miniImageNet
+You can find the detailed from `noisy_labels_learning/README.md`
 
 ### Results and Models
 
@@ -124,6 +129,10 @@ If you find this project useful in your research, please consider cite:
 The classification task in this repo is based on [OFAKD](https://github.com/Hao840/OFAKD/tree/main), [DKD](https://github.com/megvii-research/mdistiller) and [timm](https://github.com/rwightman/pytorch-image-models).
 
 The transfer learning  in this repo is baesd on [MAE](https://github.com/facebookresearch/mae).
+
+The few shot learning in this repo is baesd on [few-shot-meta-baseline](https://github.com/yinboc/few-shot-meta-baseline).
+
+The noisy labels learning in this repo is baesd on [Sel-CL](https://github.com/ShikunLi/Sel-CL).
 
 ### License
 

@@ -1,0 +1,6 @@
+dataset: mini-imagenet
+dataset_args: {split: test}
+
+load_encoder: classifier_mini-imagenet_resnet12_bottle/epoch-last.pth
+
+# Replace load with load_encoder for loading the encoder only (e.g. for testing Classifier-Baseline)

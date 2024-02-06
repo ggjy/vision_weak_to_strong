@@ -1,0 +1,11 @@
+# numpy~=1.21.6
+# torch~=1.11.0+cu113
+# Pillow~=9.3.0
+# torchvision~=0.12.0+cu113
+# six~=1.16.0
+# scipy~=1.5.2
+PyYAML
+tqdm
+tensorboardX
+sklearn
+scikit-learn
