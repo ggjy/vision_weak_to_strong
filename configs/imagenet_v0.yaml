@@ -1,0 +1,11 @@
+epochs: 100
+batch_size: 64
+lr: 0.1
+opt: sgd
+sched: step
+decay_epochs: 30
+decay_rate: 0.1
+weight_decay: 0.0001
+crop_pct: 0.95
+color_jitter: 0
+smoothing: 0.1
