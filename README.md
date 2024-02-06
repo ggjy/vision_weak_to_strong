@@ -92,10 +92,10 @@ python -m torch.distributed.launch --nproc_per_node=8 train.py /cache/data/image
 Our CIFAR training is conducted using 8 GPUs, in contrast to the previous codebase that utilized only 1 GPU. In order to achieve a comparable baseline accuracy between the student and teacher models, we experimented with both the ```configs/cifar_v0.yaml``` and ```configs/cifar_v1.yaml``` configurations.
 
 #### Few shot learning on miniImageNet
-You can find the detailed from `few_shot_leaerning/README.md`
+You can find the detailed from [`few_shot_leaerning/README.md`.](https://github.com/ggjy/vision_weak_to_strong/blob/main/few_shot_leaerning/README.md)
 
 #### Noisy labels learning on miniImageNet
-You can find the detailed from `noisy_labels_learning/README.md`
+You can find the detailed from [`noisy_labels_learning/README.md`.](https://github.com/ggjy/vision_weak_to_strong/blob/main/noisy_labels_learning/README.md)
 
 ### Results and Models
 
