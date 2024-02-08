@@ -1,0 +1,4 @@
+kd_loss_type: adapt_conf
+loss_weight: 1
+temperature: 1
+superalignment_threshold: 0.5

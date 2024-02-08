@@ -1,0 +1,25 @@
+dataset: torch/cifar100
+num_classes: 100
+img_size: 32
+mean:
+    - 0.5071
+    - 0.4865
+    - 0.4409
+std:
+    - 0.2673
+    - 0.2564
+    - 0.2762
+interpolation: bilinear
+epochs: 240
+batch_size: 64
+lr: 0.2
+min_lr: 2e-3
+warmup_epochs: 10
+opt: sgd
+sched: cosine
+weight_decay: 0.0005
+smoothing: 0.0
+aa: original-mstd0.5
+mixup: 0.1
+color_jitter: 0
+crop_pct: 0.875
