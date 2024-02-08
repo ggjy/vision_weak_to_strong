@@ -1,4 +1,4 @@
-## Implementation of  "[Vision Superalignment: Weak-to-Strong Generalization for Vision Foundation Models]()".
+## Implementation of  "[Vision Superalignment: Weak-to-Strong Generalization for Vision Foundation Models](https://arxiv.org/pdf/2402.03749.pdf)".
 
 
 <p align="center">
